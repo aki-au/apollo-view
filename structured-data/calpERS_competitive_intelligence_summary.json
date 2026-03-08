@@ -1,0 +1,267 @@
+[
+  {
+    "competitor_id": "CI-001",
+    "firm_name": "PIMCO",
+    "strategy_focus": [
+      "Core Fixed Income",
+      "Global Fixed Income",
+      "Inflation-Linked",
+      "Short Duration",
+      "Emerging Market Debt",
+      "Opportunistic Credit"
+    ],
+    "estimated_calpers_aum_billions": 8.7,
+    "is_current_calpers_manager": true,
+    "known_fee_range_bps": "10-35",
+    "esg_rating": "Strong",
+    "recent_mandate_wins": [
+      "Washington State Investment Board",
+      "New York State Common Retirement Fund",
+      "Orange County Employees Retirement System"
+    ],
+    "recent_mandate_losses": [
+      "Texas Municipal Retirement System"
+    ],
+    "known_strengths": [
+      "Deep macro research platform",
+      "Strong institutional brand recognition",
+      "Well-developed ESG integration framework",
+      "Broad product shelf across public fixed income",
+      "Sophisticated risk and scenario analysis"
+    ],
+    "known_weaknesses": [
+      "Fees can be higher than passive-oriented competitors",
+      "Large-platform complexity can make customization slower",
+      "May be viewed as crowded in flagship strategies"
+    ],
+    "threat_level": "High",
+    "notes": "Main competitive threat in the CalPERS fixed income landscape. Strong ESG credibility and consultant familiarity make PIMCO especially difficult to displace in large mandates."
+  },
+  {
+    "competitor_id": "CI-002",
+    "firm_name": "BlackRock",
+    "strategy_focus": [
+      "Core Fixed Income",
+      "Global Fixed Income",
+      "Short Duration",
+      "Inflation-Linked",
+      "Liability Driven Investing",
+      "ETF-Based Fixed Income"
+    ],
+    "estimated_calpers_aum_billions": null,
+    "is_current_calpers_manager": false,
+    "known_fee_range_bps": "5-22",
+    "esg_rating": "Strong",
+    "recent_mandate_wins": [
+      "CalSTRS",
+      "Illinois Municipal Retirement Fund"
+    ],
+    "recent_mandate_losses": [
+      "California State Teachers' Retirement System - active credit search"
+    ],
+    "known_strengths": [
+      "Massive scale and broad fixed income platform",
+      "Very strong reporting and analytics",
+      "Competitive pricing in large mandates",
+      "Recognized ESG and stewardship infrastructure"
+    ],
+    "known_weaknesses": [
+      "Can be perceived as less differentiated for alpha-seeking mandates",
+      "Large asset base may raise concerns about agility in niche sectors"
+    ],
+    "threat_level": "High",
+    "notes": "A strong finalist threat for CalPERS if fee competitiveness and reporting quality are weighted heavily."
+  },
+  {
+    "competitor_id": "CI-003",
+    "firm_name": "Western Asset",
+    "strategy_focus": [
+      "Core Fixed Income",
+      "Core Plus",
+      "Short Duration",
+      "High Yield",
+      "Emerging Market Debt"
+    ],
+    "estimated_calpers_aum_billions": 5.1,
+    "is_current_calpers_manager": true,
+    "known_fee_range_bps": "8-32",
+    "esg_rating": "Moderate",
+    "recent_mandate_wins": [
+      "Los Angeles County Employees Retirement Association"
+    ],
+    "recent_mandate_losses": [
+      "Arizona State Retirement System"
+    ],
+    "known_strengths": [
+      "Long track record in active fixed income",
+      "Strong credit research heritage",
+      "Established public pension relationships",
+      "Experienced sector specialists"
+    ],
+    "known_weaknesses": [
+      "ESG narrative is less compelling than top-tier competitors",
+      "Performance can be cyclical depending on credit environment"
+    ],
+    "threat_level": "Medium",
+    "notes": "Respected incumbent-style competitor with credibility in traditional fixed income, though less formidable than PIMCO on ESG and broader platform breadth."
+  },
+  {
+    "competitor_id": "CI-004",
+    "firm_name": "Vanguard",
+    "strategy_focus": [
+      "Core Fixed Income",
+      "Short Duration",
+      "Treasury",
+      "Passive Fixed Income"
+    ],
+    "estimated_calpers_aum_billions": null,
+    "is_current_calpers_manager": false,
+    "known_fee_range_bps": "2-8",
+    "esg_rating": "Moderate",
+    "recent_mandate_wins": [
+      "Virginia Retirement System passive bond sleeve"
+    ],
+    "recent_mandate_losses": [
+      "State of Wisconsin Investment Board active bond search"
+    ],
+    "known_strengths": [
+      "Exceptionally competitive fees",
+      "Strong passive implementation capabilities",
+      "Trusted institution for large plan indexing needs"
+    ],
+    "known_weaknesses": [
+      "Less compelling for active alpha-oriented searches",
+      "Limited differentiation in bespoke public pension reporting"
+    ],
+    "threat_level": "Medium",
+    "notes": "Biggest risk comes when CalPERS frames the decision against low-cost passive implementation rather than active value-add."
+  },
+  {
+    "competitor_id": "CI-005",
+    "firm_name": "Fidelity Institutional Asset Management",
+    "strategy_focus": [
+      "Core Fixed Income",
+      "Short Duration",
+      "High Yield",
+      "Multi-Sector Fixed Income"
+    ],
+    "estimated_calpers_aum_billions": null,
+    "is_current_calpers_manager": false,
+    "known_fee_range_bps": "7-25",
+    "esg_rating": "Moderate",
+    "recent_mandate_wins": [
+      "Massachusetts Pension Reserves Investment Management Board"
+    ],
+    "recent_mandate_losses": [
+      "New Jersey Division of Investment"
+    ],
+    "known_strengths": [
+      "Strong brand and operational scale",
+      "Solid credit and securitized research resources",
+      "Good balance of pricing and active management capability"
+    ],
+    "known_weaknesses": [
+      "Less differentiated consultant mindshare in large public pension finals",
+      "ESG positioning not usually viewed as a primary selling point"
+    ],
+    "threat_level": "Medium",
+    "notes": "Competitive on quality and price, but generally not the first name that dominates a CalPERS-style headline search."
+  },
+  {
+    "competitor_id": "CI-006",
+    "firm_name": "T. Rowe Price",
+    "strategy_focus": [
+      "Global Fixed Income",
+      "Emerging Market Debt",
+      "Corporate Credit",
+      "Multi-Sector Fixed Income"
+    ],
+    "estimated_calpers_aum_billions": null,
+    "is_current_calpers_manager": false,
+    "known_fee_range_bps": "12-38",
+    "esg_rating": "Moderate",
+    "recent_mandate_wins": [
+      "Maryland State Retirement and Pension System"
+    ],
+    "recent_mandate_losses": [
+      "Washington State Investment Board"
+    ],
+    "known_strengths": [
+      "Strong fundamental research culture",
+      "Credible global and emerging market debt capabilities",
+      "Stable investment teams in many strategies"
+    ],
+    "known_weaknesses": [
+      "Can be less fee-competitive in large institutional searches",
+      "Less dominant than mega-firms in consultant-led finals"
+    ],
+    "threat_level": "Medium",
+    "notes": "More threatening in global credit or EMD searches than in plain-vanilla core fixed income."
+  },
+  {
+    "competitor_id": "CI-007",
+    "firm_name": "Goldman Sachs Asset Management",
+    "strategy_focus": [
+      "Core Fixed Income",
+      "Global Fixed Income",
+      "Emerging Market Debt",
+      "Short Duration",
+      "Structured Credit"
+    ],
+    "estimated_calpers_aum_billions": 4.3,
+    "is_current_calpers_manager": true,
+    "known_fee_range_bps": "10-40",
+    "esg_rating": "Moderate",
+    "recent_mandate_wins": [
+      "Pennsylvania Public School Employees' Retirement System"
+    ],
+    "recent_mandate_losses": [
+      "Texas County and District Retirement System"
+    ],
+    "known_strengths": [
+      "Broad capital markets resources",
+      "Strong structured products and global macro insights",
+      "Sophisticated client reporting and analytics"
+    ],
+    "known_weaknesses": [
+      "Brand can trigger questions around fee levels",
+      "Some public funds view platform as more opportunistic than benchmark-aware"
+    ],
+    "threat_level": "High",
+    "notes": "A credible incumbent-caliber competitor at CalPERS, especially where complex credit or macro positioning are valued."
+  },
+  {
+    "competitor_id": "CI-008",
+    "firm_name": "JPMorgan Asset Management",
+    "strategy_focus": [
+      "Core Fixed Income",
+      "Global Fixed Income",
+      "High Yield",
+      "Emerging Market Debt",
+      "Short Duration"
+    ],
+    "estimated_calpers_aum_billions": null,
+    "is_current_calpers_manager": false,
+    "known_fee_range_bps": "8-35",
+    "esg_rating": "Strong",
+    "recent_mandate_wins": [
+      "Ohio Public Employees Retirement System",
+      "Florida State Board of Administration"
+    ],
+    "recent_mandate_losses": [
+      "California Public Employees' Retirement System shortlist - prior cycle"
+    ],
+    "known_strengths": [
+      "Global platform depth",
+      "Strong manager bench and team continuity",
+      "Good ESG resources and reporting quality",
+      "Competitive across both benchmarked and flexible mandates"
+    ],
+    "known_weaknesses": [
+      "May be viewed as less nimble than specialist boutiques",
+      "Pricing not always best-in-class versus passive-heavy firms"
+    ],
+    "threat_level": "High",
+    "notes": "A serious finalist risk for CalPERS due to balanced strength across performance, team depth, ESG, and reporting."
+  }
+]

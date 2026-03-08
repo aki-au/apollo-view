@@ -1,0 +1,22 @@
+{
+  "plan_name": "California Public Employees' Retirement System (CalPERS)",
+  "total_aum_billions": 556.2,
+  "funded_status_pct": 79,
+  "fy2025_return_pct": 11.6,
+  "discount_rate_pct": 6.8,
+  "return_1yr_pct": 11.6,
+  "return_3yr_pct": 6.9,
+  "return_5yr_pct": 8.0,
+  "return_10yr_pct": 7.1,
+  "return_20yr_pct": 6.7,
+  "total_members": 2300000,
+  "annual_benefit_payments_billions": 32.8,
+  "employer_contribution_rate_pct": 29.4,
+  "last_actuarial_review_date": "2024-06-30",
+  "next_actuarial_review_date": "2025-06-30",
+  "investment_consultants": [
+    "Wilshire Advisors",
+    "Meketa Investment Group"
+  ],
+  "fiscal_year_end": "2025-06-30"
+}

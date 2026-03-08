@@ -1,0 +1,159 @@
+[
+  {
+    "note_id": "MN-001",
+    "meeting_date": "2024-05-14",
+    "meeting_type": "Introductory Call",
+    "calpers_attendees": [
+      "Theresa Taylor",
+      "David Miller",
+      "Eraina Ortega",
+      "Investment Office Staff"
+    ],
+    "apex_attendees": [
+      "Jonathan Reeves",
+      "Maya Srinivasan",
+      "Claire Donovan"
+    ],
+    "location": "Video Conference",
+    "strategy_discussed": "Core Fixed Income",
+    "key_discussion_points": [
+      "Apex introduced firm history, team structure, and public fund client experience",
+      "Discussion focused on philosophy for core fixed income, sector rotation, and risk budgeting",
+      "CalPERS asked about capacity discipline and whether alpha came from security selection or top-down duration calls",
+      "Apex emphasized disciplined tracking error limits and strong downside management culture"
+    ],
+    "board_concerns_raised": [
+      "Need for evidence that process is repeatable across rate regimes",
+      "Questions about team depth beyond lead portfolio manager",
+      "Interest in how Apex would scale reporting for a large public pension client"
+    ],
+    "action_items": [
+      "Apex to send three-year attribution package and team bios",
+      "CalPERS staff to compare Apex against current core fixed income peer set",
+      "Schedule in-person formal presentation if initial screening remains favorable"
+    ],
+    "outcome": "Positive",
+    "follow_up_required": true,
+    "internal_notes": "Good first impression overall. Theresa Taylor was engaged and pragmatic. David Miller pushed hardest on process repeatability. Team came across polished without overselling. Slight concern that firm leaned heavily on CIO personality rather than broader platform depth.",
+    "sentiment_score": 7
+  },
+  {
+    "note_id": "MN-002",
+    "meeting_date": "2024-11-07",
+    "meeting_type": "Formal Presentation",
+    "calpers_attendees": [
+      "Theresa Taylor",
+      "Sharris Jones",
+      "Stacie Olivares",
+      "Fiona Ma",
+      "Investment Committee Staff"
+    ],
+    "apex_attendees": [
+      "Jonathan Reeves",
+      "Maya Srinivasan",
+      "Elena Park",
+      "Robert Hale"
+    ],
+    "location": "CalPERS Headquarters, Sacramento",
+    "strategy_discussed": "Global Fixed Income",
+    "key_discussion_points": [
+      "Apex presented global fixed income framework, currency hedging policy, and sovereign risk process",
+      "ESG integration came up strongly, especially around sovereign exposure, climate risk, and issuer engagement",
+      "CalPERS asked how Apex balances fiduciary return objectives with ESG-related exclusions or tilts",
+      "Presentation included case studies on emerging market sovereign screening and governance escalation"
+    ],
+    "board_concerns_raised": [
+      "Need for clearer articulation of ESG implementation versus marketing language",
+      "Concern about whether sovereign ESG overlays could create unintended tracking error",
+      "Requests for evidence that ESG process improves risk-adjusted returns rather than just optics"
+    ],
+    "action_items": [
+      "Apex to provide written ESG integration framework with examples of investment decisions affected",
+      "CalPERS staff to request additional sovereign attribution around excluded or underweighted issuers",
+      "Set follow-up call with risk team to review tracking error implications"
+    ],
+    "outcome": "Neutral",
+    "follow_up_required": true,
+    "internal_notes": "This was the first meeting where skepticism was visible. Sharris Jones pressed hard on ESG credibility and would not accept vague language. Fiona Ma looked unconvinced by the sovereign-screening slide. Apex handled the questions decently but drifted into consultant-speak a few times. Relationship still alive, but trust not yet earned.",
+    "sentiment_score": 5
+  },
+  {
+    "note_id": "MN-003",
+    "meeting_date": "2025-08-26",
+    "meeting_type": "Annual Review",
+    "calpers_attendees": [
+      "David Miller",
+      "Eraina Ortega",
+      "Rob Feckner",
+      "Investment Office Staff"
+    ],
+    "apex_attendees": [
+      "Jonathan Reeves",
+      "Maya Srinivasan",
+      "Claire Donovan",
+      "Neil Foster"
+    ],
+    "location": "Video Conference",
+    "strategy_discussed": "Core Fixed Income",
+    "key_discussion_points": [
+      "Reviewed trailing one-year and three-year performance versus Bloomberg U.S. Aggregate benchmark",
+      "CalPERS asked for more detail on fee schedule relative to similarly sized public pension mandates",
+      "Discussion covered security selection, mortgage exposure, and duration decisions during volatile rate moves",
+      "Apex highlighted operational improvements in reporting and client service responsiveness since prior meetings"
+    ],
+    "board_concerns_raised": [
+      "Fee competitiveness was questioned, especially given only moderate excess return",
+      "Concern that active risk budget may not be fully justified by current information ratio",
+      "Questions about whether team turnover in research could affect consistency"
+    ],
+    "action_items": [
+      "Apex to submit fee benchmarking and proposed breakpoint schedule",
+      "CalPERS staff to prepare internal comparison versus incumbent and peer managers",
+      "Apex to provide updated analyst retention statistics and compensation framework"
+    ],
+    "outcome": "Pending",
+    "follow_up_required": true,
+    "internal_notes": "Tone was more businesslike and less exploratory than prior meetings. David Miller clearly drove the fee discussion and did not sound impressed with a standard institutional rate card. Rob Feckner was quieter but asked practical questions about whether members ultimately benefit from paying for active management here. Apex did better on substance than in 2024, but board appetite looked conditional on price discipline.",
+    "sentiment_score": 6
+  },
+  {
+    "note_id": "MN-004",
+    "meeting_date": "2026-02-18",
+    "meeting_type": "Follow-up Call",
+    "calpers_attendees": [
+      "Theresa Taylor",
+      "David Miller",
+      "Sharris Jones",
+      "Fiona Ma",
+      "Investment Office Staff"
+    ],
+    "apex_attendees": [
+      "Jonathan Reeves",
+      "Maya Srinivasan",
+      "Elena Park",
+      "Neil Foster"
+    ],
+    "location": "Video Conference",
+    "strategy_discussed": "Global Fixed Income and Opportunistic Credit",
+    "key_discussion_points": [
+      "Most recent discussion centered on current macro environment including elevated policy uncertainty, sticky inflation risk, and volatile global rate expectations",
+      "Apex defended a cautious duration stance and selective spread exposure rather than reaching for yield",
+      "CalPERS asked how the team would position through divergent central bank paths and widening fiscal deficits",
+      "Discussion also touched on liquidity management, downside scenarios, and where opportunistic credit could add value without overconcentrating risk"
+    ],
+    "board_concerns_raised": [
+      "Concern that cautious duration positioning may lag if rates fall faster than expected",
+      "Questions about whether global exposures are introducing complexity without enough incremental alpha",
+      "Need for clearer articulation of downside protection in a recessionary shock scenario"
+    ],
+    "action_items": [
+      "Apex to send macro scenario deck with portfolio impacts under bull, base, and stagflation cases",
+      "CalPERS staff to evaluate Apex positioning against current watchlist managers",
+      "Schedule next discussion ahead of RFP shortlist decision"
+    ],
+    "outcome": "Positive",
+    "follow_up_required": true,
+    "internal_notes": "Relationship has clearly matured. Apex sounded more confident and less rehearsed than in earlier meetings. Still, David Miller seemed skeptical about duration positioning and pushed repeatedly on what happens if the team is early again. Sharris Jones asked whether macro caution is masking a lack of conviction. Net-net, this was the strongest meeting so far because answers were crisper and more grounded in today\u2019s market backdrop.",
+    "sentiment_score": 8
+  }
+]

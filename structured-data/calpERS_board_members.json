@@ -1,0 +1,277 @@
+[
+  {
+    "member_id": "BM-001",
+    "name": "Theresa Taylor",
+    "role": "President",
+    "appointment_type": "Elected by State Employees",
+    "professional_background": "Union Representative",
+    "tenure_years": 6,
+    "term_expiry_date": "2029-01-15",
+    "committee_memberships": [
+      "Investment Committee",
+      "Risk and Audit",
+      "Pension and Health Benefits"
+    ],
+    "known_priorities": [
+      "Funded Status",
+      "Risk Management",
+      "Member Benefits"
+    ],
+    "finance_expertise_level": "Medium",
+    "typical_question_focus": "Asset allocation, downside protection, benefit sustainability, and long-term funded ratio impacts.",
+    "notes": "Current board president; often balances fiduciary discipline with member-facing concerns."
+  },
+  {
+    "member_id": "BM-002",
+    "name": "David Miller",
+    "role": "Vice President",
+    "appointment_type": "Elected by Public Agency Employees",
+    "professional_background": "Government Official",
+    "tenure_years": 5,
+    "term_expiry_date": "2028-01-15",
+    "committee_memberships": [
+      "Investment Committee",
+      "Finance and Administration",
+      "Performance Compensation and Talent Management"
+    ],
+    "known_priorities": [
+      "Funded Status",
+      "Diversification",
+      "Fee Reduction"
+    ],
+    "finance_expertise_level": "High",
+    "typical_question_focus": "Manager performance, benchmark-relative returns, private market pacing, and cost efficiency.",
+    "notes": "Current vice president; generally asks direct questions on execution and total plan impact."
+  },
+  {
+    "member_id": "BM-003",
+    "name": "Eraina Ortega",
+    "role": "Board Member",
+    "appointment_type": "Appointed by Legislature",
+    "professional_background": "Government Official",
+    "tenure_years": 7,
+    "term_expiry_date": "2027-01-15",
+    "committee_memberships": [
+      "Finance and Administration",
+      "Risk and Audit"
+    ],
+    "known_priorities": [
+      "Risk Management",
+      "Funded Status",
+      "Fee Reduction"
+    ],
+    "finance_expertise_level": "Medium",
+    "typical_question_focus": "Operating budgets, governance controls, enterprise risk, and execution accountability.",
+    "notes": "Known for governance-oriented questioning and attention to board process."
+  },
+  {
+    "member_id": "BM-004",
+    "name": "Rob Feckner",
+    "role": "Board Member",
+    "appointment_type": "Elected by School Members",
+    "professional_background": "Union Representative",
+    "tenure_years": 24,
+    "term_expiry_date": "2026-01-15",
+    "committee_memberships": [
+      "Pension and Health Benefits",
+      "Finance and Administration"
+    ],
+    "known_priorities": [
+      "Member Benefits",
+      "Funded Status",
+      "Risk Management"
+    ],
+    "finance_expertise_level": "Medium",
+    "typical_question_focus": "Benefit security, member communication, governance continuity, and long-term solvency.",
+    "notes": "Long-serving historical board figure; valued for institutional memory and practical governance experience."
+  },
+  {
+    "member_id": "BM-005",
+    "name": "Stacie Olivares",
+    "role": "Board Member",
+    "appointment_type": "Elected by State Employees",
+    "professional_background": "Academic",
+    "tenure_years": 4,
+    "term_expiry_date": "2027-01-15",
+    "committee_memberships": [
+      "Pension and Health Benefits",
+      "Performance Compensation and Talent Management"
+    ],
+    "known_priorities": [
+      "Member Benefits",
+      "ESG",
+      "Risk Management"
+    ],
+    "finance_expertise_level": "Low",
+    "typical_question_focus": "Health benefit affordability, staff talent issues, and how policy changes affect members.",
+    "notes": "Policy-oriented member profile with stronger member-services lens than pure investment lens."
+  },
+  {
+    "member_id": "BM-006",
+    "name": "Sharris Jones",
+    "role": "Board Member",
+    "appointment_type": "Appointed by Governor",
+    "professional_background": "Government Official",
+    "tenure_years": 3,
+    "term_expiry_date": "2028-01-15",
+    "committee_memberships": [
+      "Risk and Audit",
+      "Finance and Administration"
+    ],
+    "known_priorities": [
+      "ESG",
+      "Risk Management",
+      "Diversification"
+    ],
+    "finance_expertise_level": "Medium",
+    "typical_question_focus": "Climate risk, oversight framework, operational resilience, and manager accountability.",
+    "notes": "Often frames questions around public stewardship and reputational risk."
+  },
+  {
+    "member_id": "BM-007",
+    "name": "Malia M. Cohen",
+    "role": "Board Member",
+    "appointment_type": "State Controller",
+    "professional_background": "Government Official",
+    "tenure_years": 3,
+    "term_expiry_date": "2027-01-01",
+    "committee_memberships": [
+      "Investment Committee",
+      "Risk and Audit"
+    ],
+    "known_priorities": [
+      "Funded Status",
+      "Risk Management",
+      "Fee Reduction"
+    ],
+    "finance_expertise_level": "High",
+    "typical_question_focus": "Portfolio liquidity, actuarial assumptions, external manager value-add, and governance controls.",
+    "notes": "Ex officio member with strong emphasis on fiscal oversight and statewide accountability."
+  },
+  {
+    "member_id": "BM-008",
+    "name": "Fiona Ma",
+    "role": "Board Member",
+    "appointment_type": "State Treasurer",
+    "professional_background": "Finance Professional",
+    "tenure_years": 7,
+    "term_expiry_date": "2027-01-01",
+    "committee_memberships": [
+      "Investment Committee",
+      "Finance and Administration"
+    ],
+    "known_priorities": [
+      "Diversification",
+      "Funded Status",
+      "Fee Reduction"
+    ],
+    "finance_expertise_level": "High",
+    "typical_question_focus": "Capital markets conditions, fixed income structure, cost discipline, and investment pacing.",
+    "notes": "Ex officio member typically focused on portfolio construction and market implications."
+  },
+  {
+    "member_id": "BM-009",
+    "name": "Lisa Middleton",
+    "role": "Board Member",
+    "appointment_type": "Appointed by Legislature",
+    "professional_background": "Government Official",
+    "tenure_years": 5,
+    "term_expiry_date": "2028-01-15",
+    "committee_memberships": [
+      "Finance and Administration",
+      "Performance Compensation and Talent Management"
+    ],
+    "known_priorities": [
+      "Fee Reduction",
+      "Member Benefits",
+      "Funded Status"
+    ],
+    "finance_expertise_level": "Medium",
+    "typical_question_focus": "Administrative efficiency, benefit delivery, executive performance, and vendor oversight.",
+    "notes": "Frequently zeroes in on execution details and whether outcomes justify cost."
+  },
+  {
+    "member_id": "BM-010",
+    "name": "Adrian Velasco",
+    "role": "Board Member",
+    "appointment_type": "Appointed by Governor",
+    "professional_background": "Finance Professional",
+    "tenure_years": 2,
+    "term_expiry_date": "2029-01-15",
+    "committee_memberships": [
+      "Investment Committee",
+      "Risk and Audit"
+    ],
+    "known_priorities": [
+      "Fee Reduction",
+      "Diversification",
+      "Risk Management"
+    ],
+    "finance_expertise_level": "High",
+    "typical_question_focus": "External manager fees, active risk budgets, stress testing, and credit exposure.",
+    "notes": "Fictional member created for table completeness; represents a markets-oriented appointee."
+  },
+  {
+    "member_id": "BM-011",
+    "name": "Marisol Bennett",
+    "role": "Board Member",
+    "appointment_type": "Elected by Public Agency Employees",
+    "professional_background": "Union Representative",
+    "tenure_years": 4,
+    "term_expiry_date": "2028-01-15",
+    "committee_memberships": [
+      "Pension and Health Benefits",
+      "Finance and Administration"
+    ],
+    "known_priorities": [
+      "Member Benefits",
+      "Funded Status",
+      "Fee Reduction"
+    ],
+    "finance_expertise_level": "Low",
+    "typical_question_focus": "Contribution impacts on agencies and workers, health plan affordability, and service quality.",
+    "notes": "Fictional member created for table completeness; strongly member-centric in discussion."
+  },
+  {
+    "member_id": "BM-012",
+    "name": "Kenneth Y. Park",
+    "role": "Board Member",
+    "appointment_type": "Elected by School Members",
+    "professional_background": "Academic",
+    "tenure_years": 1,
+    "term_expiry_date": "2029-01-15",
+    "committee_memberships": [
+      "Investment Committee",
+      "Pension and Health Benefits"
+    ],
+    "known_priorities": [
+      "ESG",
+      "Diversification",
+      "Member Benefits"
+    ],
+    "finance_expertise_level": "Medium",
+    "typical_question_focus": "Long-horizon portfolio design, stewardship policies, and how investment policy aligns with beneficiaries.",
+    "notes": "Fictional member created for table completeness; brings an education-sector perspective."
+  },
+  {
+    "member_id": "BM-013",
+    "name": "Natalie S. Greer",
+    "role": "Board Member",
+    "appointment_type": "Appointed by Legislature",
+    "professional_background": "Finance Professional",
+    "tenure_years": 3,
+    "term_expiry_date": "2028-01-15",
+    "committee_memberships": [
+      "Risk and Audit",
+      "Performance Compensation and Talent Management"
+    ],
+    "known_priorities": [
+      "Risk Management",
+      "Fee Reduction",
+      "Funded Status"
+    ],
+    "finance_expertise_level": "High",
+    "typical_question_focus": "Manager evaluation, incentive alignment, internal controls, and benchmark design.",
+    "notes": "Fictional member created for table completeness; tends to scrutinize governance incentives."
+  }
+]
