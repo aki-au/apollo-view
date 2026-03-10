@@ -46,6 +46,51 @@ Enter a plan name, strategy, and meeting type. Apollo View produces a multi-sect
 - **First Introduction**: plan context, investment policy, board priorities, relationship entry points
 
 ---
+# Screenshots
+
+### Input Form
+Enter the plan name, strategy, meeting type, date, and any additional notes. All three meeting types are supported from the dropdown.
+
+![Input form](images/ss2.png)
+
+### Generation Starting
+The progress screen initialises immediately after submitting, showing the plan, strategy, and meeting type being prepared along with an estimated time remaining.
+
+![Generation starting](images/ss1.png)
+
+![Progress early stage](images/ss3.png)
+
+### Live Progress — Steps Completing
+Completed steps accumulate as a live log with plain-English summaries — number of research questions generated, database queries answered, documents read, board tone shifts detected, market research passages retrieved, and news articles gathered with their sources.
+
+![Progress steps completing](images/ss4.png)
+
+### Briefing — Cover Page and Executive Summary
+Once complete, the briefing opens automatically. The left sidebar shows the full table of contents with clickable links to each section. The cover page shows the plan, strategy, meeting type, and date. The Executive Summary follows immediately below.
+
+![Briefing cover and executive summary](images/ss5.png)
+
+### Briefing — Strategy Context
+Each section is written by the AI using data from the relevant sources, cited inline. This section draws on PIMCO and Goldman Sachs market research, as well as structured performance and contract data.
+
+![Strategy context section](images/ss6.png)
+
+### Briefing — ESG Considerations
+Sections synthesise across all four data sources. ESG Considerations draws on board documents, market research, and live news to surface ESG-specific risks and requirements that the manager should be prepared to address.
+
+![ESG considerations section](images/ss7.png)
+
+### Briefing — Competitive Landscape
+The Competitive Landscape section identifies peer managers at the plan, their performance relative to the benchmark, and contract renewal timing — giving the manager a clear picture of who they are up against.
+
+![Competitive landscape section](images/ss8.png)
+
+### Briefing — Proactive Insights
+The final section surfaces insights the manager did not explicitly ask about — risks, board concerns, and market dynamics detected across all data sources that are relevant to the meeting but might otherwise be missed.
+
+![Proactive insights section](images/ss9.png)
+
+--- 
 
 ## Architecture
 
@@ -78,7 +123,7 @@ Input (plan name · strategy · meeting type)
       HTML + PDF Briefing
 ```
 
-### Key Design Decisions
+### Some of my Design Decisions
 
 **Hybrid retrieval (Agents 3 & 4)**: Dense search (sentence-transformers cosine similarity) combined with sparse search (BM25Okapi), merged via Reciprocal Rank Fusion. 
 
@@ -86,9 +131,9 @@ Input (plan name · strategy · meeting type)
 
 **Multi-call synthesis**: Instead of one large prompt, Agent 6 generates a Table of Contents first, then makes one Llama call per section with only the relevant data subset (max 4,000 chars per section). A 3B model handles focused 300-word sections far better than a single 6,000-word context dump. A final call generates proactive insights across all data.
 
-**Rule-based SQL routing with LLM fallback** — Agent 2 scores each question against keyword banks and routes to pre-written parameterized SQL builders. Llama only generates SQL for questions that don't match any route, and all generated SQL is validated before execution (SELECT only, no dangerous keywords, known tables only).
+**Rule-based SQL routing with LLM fallback**: Agent 2 scores each question against keyword banks and routes to pre-written parameterized SQL builders. Llama only generates SQL for questions that don't match any route, and all generated SQL is validated before execution (SELECT only, no dangerous keywords, known tables only).
 
-**Auto-detecting news mode** — Agent 5 checks for a Tavily API key at startup. If present, it runs live search. 
+**Auto-detecting news mode**: Agent 5 checks for a Tavily API key at startup. If present, it runs live search. 
 
 ---
 
