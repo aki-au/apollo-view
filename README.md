@@ -2,7 +2,7 @@
 
 **AI-powered meeting intelligence for investment managers.**
 
-Apollo View takes a manager's meeting details and generates a comprehensive, cited briefing document in a matter of minutes. It searches structured databases, internal documents, market research, and live news simultaneously, detects shifts in board sentiment over time, and surfaces insights the manager might have not known.
+Apollo View takes a manager's meeting details and generates a comprehensive, cited briefing document in a matter of minutes. It searches structured databases, internal documents, market research, and live news simultaneously, detects shifts in board sentiment over time, and surfaces insights that the manager might not have known.
 
 Built as a proof-of-concept for investment managers pitching fixed income strategies to public pension plans.
 
@@ -54,39 +54,38 @@ Enter the plan name, strategy, meeting type, date, and any additional notes. All
 ![Input form](images/ss2.png)
 
 ### Generation Starting
-The progress screen initialises immediately after submitting, showing the plan, strategy, and meeting type being prepared along with an estimated time remaining.
+The progress screen is initialised immediately after submission, showing the plan, strategy, and meeting type being prepared, along with an estimated time remaining.
 
 ![Generation starting](images/ss1.png)
 
 ![Progress early stage](images/ss3.png)
 
-### Live Progress — Steps Completing
-Completed steps accumulate as a live log with plain-English summaries — number of research questions generated, database queries answered, documents read, board tone shifts detected, market research passages retrieved, and news articles gathered with their sources.
+### Live Progress: Steps Completing
+Completed steps accumulate as a live log with plain-English summaries: number of research questions generated, database queries answered, documents read, board tone shifts detected, market research passages retrieved, and news articles gathered with their sources.
 
 ![Progress steps completing](images/ss4.png)
 
-### Briefing — Cover Page and Executive Summary
+### Report: Cover Page and Executive Summary
 Once complete, the briefing opens automatically. The left sidebar shows the full table of contents with clickable links to each section. The cover page shows the plan, strategy, meeting type, and date. The Executive Summary follows immediately below.
 
 ![Briefing cover and executive summary](images/ss5.png)
 
-### Briefing — Strategy Context
+### Report: Strategy Context
 Each section is written by the AI using data from the relevant sources, cited inline. This section draws on PIMCO and Goldman Sachs market research, as well as structured performance and contract data.
 
 ![Strategy context section](images/ss6.png)
 
-### Briefing — ESG Considerations
+### Report: ESG Considerations
 Sections synthesise across all four data sources. ESG Considerations draws on board documents, market research, and live news to surface ESG-specific risks and requirements that the manager should be prepared to address.
 
 ![ESG considerations section](images/ss7.png)
 
-### Briefing — Competitive Landscape
-The Competitive Landscape section identifies peer managers at the plan, their performance relative to the benchmark, and contract renewal timing — giving the manager a clear picture of who they are up against.
-
+### Report: Competitive Landscape
+The Competitive Landscape section identifies peer managers at the plan, their performance relative to the benchmark, and contract renewal timing 
 ![Competitive landscape section](images/ss8.png)
 
-### Briefing — Proactive Insights
-The final section surfaces insights the manager did not explicitly ask about — risks, board concerns, and market dynamics detected across all data sources that are relevant to the meeting but might otherwise be missed.
+### Report: Proactive Insights
+The final section surfaces insights the manager did not explicitly ask about: risks, board concerns, and market dynamics detected across all data sources that are relevant to the meeting but might otherwise be missed.
 
 ![Proactive insights section](images/ss9.png)
 
@@ -142,7 +141,7 @@ Input (plan name · strategy · meeting type)
 - Python 3.11+
 - [Ollama](https://ollama.com) running locally with `llama3.2` pulled
 - Please use the requirements.txt to download the necessary packages.
-- A [Tavily API key](https://tavily.com) for live news search (optional — free tier: 1,000 searches/month)
+- A [Tavily API key](https://tavily.com) for live news search (optional; free tier: 1,000 searches/month)
 
 ### Install Ollama and pull the model
 
@@ -159,16 +158,16 @@ ollama list
 
 ## Setup
 
-The structured database and document embeddings need to be prepared in advance of running. **Both are already committed to the repo for the CalPERS demo scenario — skip Steps 1 and 2 if you just want to run the demo.**
+The structured database and document embeddings need to be prepared in advance of running. **Both are already committed to the repo for the CalPERS demo scenario, so you can skip Steps 1 and 2 if you just want to run the demo.**
 
-### Step 1 — Build the SQLite database
+### Step 1 - Build the SQLite database
 
 ```bash
 python create_calpers_db.py
 ```
 
 Loads 7 JSON files from `structured-data/` into `calpers.db`. All structured data is simulated — as adeveloper building this POC independently, there is no access to internal data from firms like eVestment or to proprietary manager records. The simulated values are designed to reflect realistic figures for a plan of CalPERS' scale and serve as stand-ins for the real data that would power a production deployment. Safe to re-run.
-### Step 2 — Ingest documents into ChromaDB
+### Step 2 - Ingest documents into ChromaDB
 
 ```bash
 python load_and_ingest_docs.py
@@ -179,7 +178,7 @@ Processes all documents in `unstructured-data/` and builds two vector collection
 > `calpers_docs` — CalPERS-specific documents (board meeting transcripts, investment committee agendas, ACFR, annual investment report, investment policy, RFP materials)
 > `market_intel` — Market research (PIMCO Cyclical Outlook, Goldman Sachs Macro Outlook)
 
-Embeddings are saved to `embeddings/` and persist across runs. Subsequent runs only process new or changed files. Takes a maximum of 2–3 minutes on first run.
+Embeddings are saved to `embeddings/` and persist across runs. Subsequent runs only process new or changed files. Takes a maximum of 2–3 minutes on the first run.
 
 **Document sources included:**
 
@@ -206,9 +205,9 @@ unstructured-data/
     └── rfp-doc.md
 ```
 
-> **Note on simulated data:** The `example-excerpts/` markdown files are synthetic — they simulate the kind of internal meeting notes, investment committee excerpts, and RFP correspondence that a firm would have in practice but which are not publicly available. Similarly, the structured data in `structured-data/` (manager roster, performance history, fee structures, internal meeting notes, competitive intelligence) is simulated to reflect realistic values for a CalPERS-scale plan. The real CalPERS board transcripts and public filings in `calpers-specific-documents/` are genuine public documents. In production, the simulated data would be replaced by actual CRM records, eVestment manager data, and internal meeting archives.
+> **Note on simulated data:** The `example-excerpts/` markdown files are synthetic, i.e,  they simulate the kind of internal meeting notes, investment committee excerpts, and RFP correspondence that a firm would have in practice but which are not publicly available. Similarly, the structured data in `structured-data/` (manager roster, performance history, fee structures, internal meeting notes, competitive intelligence) is simulated to reflect realistic values for a CalPERS-scale plan. The real CalPERS board transcripts and public filings in `calpers-specific-documents/` are genuine public documents. In production, the simulated data would be replaced by actual CRM records, eVestment manager data, and internal meeting archives.
 
-### Step 3 — Set your Tavily API key (optional) in utils.py
+### Step 3 - Set your Tavily API key (optional) in utils.py
 
 ---
 
@@ -229,10 +228,8 @@ The repo is pre-loaded with data for the following scenario:
 
 | Field | Value |
 |---|---|
-| Plan | CalPERS (California Public Employees' Retirement System) |
-| Strategy | Core Fixed Income |
-| Meeting Type | Annual Review or RFP Finalist |
-| Manager | Apex Capital Management |
+| Plan | CalPERS (California Public Employees' Retirement System) | <-- do not change this
+| Strategy | Core Fixed Income | --> you can change this and the others
 
 Fill in the form and click **Generate Briefing**. Total runtime is approximately 3–5 minutes, depending on hardware, with a live progress screen showing each step as it completes.
 
@@ -249,7 +246,7 @@ apollo-view/
 ├── agent_02_structured_data.py          # SQLite — fees, performance, board, renewals
 ├── agent_03_document_rag.py             # Hybrid RAG + Topic Shift Detector
 ├── agent_04_market_intelligence.py      # PIMCO / Goldman research retrieval
-├── agent_05_news.py                     # Tavily live news (auto-falls back to mock)
+├── agent_05_news.py                     # Tavily live news 
 ├── agent_06_synthesis.py                # Multi-call synthesis → HTML + PDF
 │
 ├── create_calpers_db.py                 # One-time: builds calpers.db from JSON
@@ -302,3 +299,5 @@ To add a new strategy, add an entry to `STRATEGY_ALIASES` in `agent_02_structure
 | Deployment | Local Streamlit | Cloud-hosted, multi-tenant |
 
 ---
+
+## Let's collaborate!
