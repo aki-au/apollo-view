@@ -31,7 +31,7 @@ CONFIG = {
     "TOPIC_MATCH_BOOST": 1.10,
     "MAX_SECTION_CONTEXT_CHARS": 5000,
     "MAX_INSIGHT_CONTEXT_CHARS": 7000,
-    "TAVILY_API_KEY": os.environ.get("TAVILY_API_KEY", "tvly-dev-xxxx"),
+    "TAVILY_API_KEY": os.environ.get("TAVILY_API_KEY", "tvly-dev-xx"),
 }
 
 
